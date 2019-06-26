@@ -1,0 +1,264 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.nav {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    position: -webkit-sticky;
+}
+
+#mylogo {
+    padding: 20px 20px;
+    float: left;
+    color: #8c979e;
+    margin-left: 200px;
+
+}
+
+nav ul {
+    display: flex;
+    float: right;
+    margin-right: 150px;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 10px;
+
+}
+
+ul li a {
+    color: #8c979e;
+    text-decoration: none;
+    align-content: center;
+}
+
+#image {
+    height: 800px;
+    width: 100%;
+}
+
+.photosection {
+    position: relative;
+}
+
+.text {
+    margin-top: -35%;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.text p {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.buttons {
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.buttons .btn {
+    padding: 10px 10px;
+    width: 16%;
+    margin: 10px;
+    font-size: 18px;
+
+    color: white;
+}
+
+.btn1 {
+    background-color: #745cf9;
+    border: 2px solid #745cf9;
+}
+
+.btn2 {
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.wrapper {
+    width: 100%;
+    height: 400px;
+    margin-top: 25%;
+}
+
+.texter {
+    float: right;
+    width: 35%;
+    height: 500px;
+    padding: 20px 10px 0px 10px;
+
+    text-align: left;
+}
+
+.texter h4 {
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 100px 0px 0px 5px;
+    padding: 20px;
+}
+
+.texter p {
+    padding: 20px;
+    margin: 5px 20px 10px 5px;
+    font-size: 18px;
+
+}
+
+.btnn {
+    padding: 10px 30px 10px 30px;
+    color: white;
+    background-color: #745cf9;
+    border: 0px;
+    border-radius: 4px;
+    justify-content: center;
+    margin-left: 30%;
+}
+
+
+.wrapper .cl {
+    margin-top: 25%;
+}
+
+.texter .tx {
+    float: left;
+}
+
+.parallax {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+    background-image: url(images/photo-1452723312111-3a7d0db0e024.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.texters {
+    color: white;
+    text-align: center;
+    margin-left: 10%;
+
+}
+
+.texters h3 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.texters p {
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0px 50px 20px 20px;
+    padding: 20px;
+
+}
+
+.btnnnn {
+    padding: 10px 30px 10px 30px;
+    color: white;
+    background-color: #745cf9;
+    border: 0px;
+    border-radius: 4px;
+    justify-content: center;
+}
+
+.next {
+    width: 100%;
+    height: 150vh;
+
+}
+
+.hitlist {
+    margin-top: 5%;
+    text-align: center;
+    margin-left: 10%;
+
+}
+
+.hitlist h3 {
+    color: black;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.hitlist p {
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    margin: 20px;
+    color: #8c979e;
+}
+
+.hitlist .btnnnn1 {
+    padding: 20px 50px 20px 50px;
+    color: white;
+    background-color: #745cf9;
+    border: 0px;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: -5%;
+}
+
+
+.text123 {
+    width: 100%;
+    height: 100px;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+
+#content {
+    display: grid;
+    max-height: 1000px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 0px;
+
+}
+
+#content div {
+    background-color: black;
+    height: 250px;
+
+}
+
+.bigyan {
+    width: 100%;
+    height: 120px;
+
+}
+
+.bigyan h1 {
+    padding-top: 40px;
+    font-size: 25px;
+}
+.bigyan ul{
+    float: right;
+}
+.bigyan ul li{
+    list-style: none;
+    display: inline-block;
+    padding:0px 20px 20px 0px;
+    font-size: 25px;
+}
